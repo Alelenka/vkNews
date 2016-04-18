@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		575B16231CBCBA850011FE1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 575B16221CBCBA850011FE1E /* main.m */; };
+		575B16261CBCBA850011FE1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 575B16251CBCBA850011FE1E /* AppDelegate.m */; };
+		575B162C1CBCBA850011FE1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575B162A1CBCBA850011FE1E /* Main.storyboard */; };
+		575B162F1CBCBA850011FE1E /* VKNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 575B162D1CBCBA850011FE1E /* VKNews.xcdatamodeld */; };
+		575B16311CBCBA850011FE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575B16301CBCBA850011FE1E /* Assets.xcassets */; };
+		575B16341CBCBA850011FE1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575B16321CBCBA850011FE1E /* LaunchScreen.storyboard */; };
+		575B16681CBE32390011FE1E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575B16671CBE32390011FE1E /* LoginViewController.m */; };
+		575B166D1CBE32940011FE1E /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575B166C1CBE32940011FE1E /* NewsTableViewController.m */; };
+		575B17431CBF9F010011FE1E /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 575B17421CBF9F010011FE1E /* MainModel.m */; };
+		575B17471CBFBA2F0011FE1E /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 575B17461CBFBA2F0011FE1E /* PostTableViewCell.m */; };
+		575B174A1CC007550011FE1E /* VKPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 575B17491CC007550011FE1E /* VKPost.m */; };
+		575B178A1CC2C30F0011FE1E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575B17891CC2C30F0011FE1E /* DetailViewController.m */; };
+		57B8400B1CC3E2C60024A51B /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B8400A1CC3E2C60024A51B /* ImageCollectionViewCell.m */; };
+		AA53771827A7EC9E9E611E0A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E038C4F1756BEA08CD68C5 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		575B161E1CBCBA850011FE1E /* VKNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		575B16221CBCBA850011FE1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		575B16241CBCBA850011FE1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		575B16251CBCBA850011FE1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		575B162B1CBCBA850011FE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		575B162E1CBCBA850011FE1E /* VKNews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VKNews.xcdatamodel; sourceTree = "<group>"; };
+		575B16301CBCBA850011FE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		575B16331CBCBA850011FE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		575B16351CBCBA850011FE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575B16661CBE32390011FE1E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Controllers/LoginViewController.h; sourceTree = "<group>"; };
+		575B16671CBE32390011FE1E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Controllers/LoginViewController.m; sourceTree = "<group>"; };
+		575B166B1CBE32940011FE1E /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsTableViewController.h; path = Controllers/NewsTableViewController.h; sourceTree = "<group>"; };
+		575B166C1CBE32940011FE1E /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsTableViewController.m; path = Controllers/NewsTableViewController.m; sourceTree = "<group>"; };
+		575B17411CBF9F010011FE1E /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainModel.h; path = Models/MainModel.h; sourceTree = "<group>"; };
+		575B17421CBF9F010011FE1E /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainModel.m; path = Models/MainModel.m; sourceTree = "<group>"; };
+		575B17451CBFBA2F0011FE1E /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostTableViewCell.h; path = Views/PostTableViewCell.h; sourceTree = "<group>"; };
+		575B17461CBFBA2F0011FE1E /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostTableViewCell.m; path = Views/PostTableViewCell.m; sourceTree = "<group>"; };
+		575B17481CC007550011FE1E /* VKPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VKPost.h; path = Models/VKPost.h; sourceTree = "<group>"; };
+		575B17491CC007550011FE1E /* VKPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VKPost.m; path = Models/VKPost.m; sourceTree = "<group>"; };
+		575B17881CC2C30F0011FE1E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Controllers/DetailViewController.h; sourceTree = "<group>"; };
+		575B17891CC2C30F0011FE1E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Controllers/DetailViewController.m; sourceTree = "<group>"; };
+		57B840091CC3E2C60024A51B /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageCollectionViewCell.h; path = Views/ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		57B8400A1CC3E2C60024A51B /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageCollectionViewCell.m; path = Views/ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		82E0925D97DD658CC4C36D86 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A0E038C4F1756BEA08CD68C5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74AB4C9CC5B2D95C58598F8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		575B161B1CBCBA850011FE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA53771827A7EC9E9E611E0A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		575B16151CBCBA850011FE1E = {
+			isa = PBXGroup;
+			children = (
+				575B16201CBCBA850011FE1E /* VKNews */,
+				575B161F1CBCBA850011FE1E /* Products */,
+				A77AE4F27DF25C1AD85A35CA /* Pods */,
+				B61CC833B6FCFE220EAE6A1D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		575B161F1CBCBA850011FE1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				575B161E1CBCBA850011FE1E /* VKNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		575B16201CBCBA850011FE1E /* VKNews */ = {
+			isa = PBXGroup;
+			children = (
+				575B166A1CBE324B0011FE1E /* Models */,
+				575B17441CBFBA0C0011FE1E /* Views */,
+				575B16691CBE32420011FE1E /* Controllers */,
+				575B16241CBCBA850011FE1E /* AppDelegate.h */,
+				575B16251CBCBA850011FE1E /* AppDelegate.m */,
+				575B162A1CBCBA850011FE1E /* Main.storyboard */,
+				575B16301CBCBA850011FE1E /* Assets.xcassets */,
+				575B16211CBCBA850011FE1E /* Supporting Files */,
+			);
+			path = VKNews;
+			sourceTree = "<group>";
+		};
+		575B16211CBCBA850011FE1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				575B16221CBCBA850011FE1E /* main.m */,
+				575B16321CBCBA850011FE1E /* LaunchScreen.storyboard */,
+				575B16351CBCBA850011FE1E /* Info.plist */,
+				575B162D1CBCBA850011FE1E /* VKNews.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		575B16691CBE32420011FE1E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				575B16661CBE32390011FE1E /* LoginViewController.h */,
+				575B16671CBE32390011FE1E /* LoginViewController.m */,
+				575B166B1CBE32940011FE1E /* NewsTableViewController.h */,
+				575B166C1CBE32940011FE1E /* NewsTableViewController.m */,
+				575B17881CC2C30F0011FE1E /* DetailViewController.h */,
+				575B17891CC2C30F0011FE1E /* DetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		575B166A1CBE324B0011FE1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				575B17411CBF9F010011FE1E /* MainModel.h */,
+				575B17421CBF9F010011FE1E /* MainModel.m */,
+				575B17481CC007550011FE1E /* VKPost.h */,
+				575B17491CC007550011FE1E /* VKPost.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		575B17441CBFBA0C0011FE1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				575B17451CBFBA2F0011FE1E /* PostTableViewCell.h */,
+				575B17461CBFBA2F0011FE1E /* PostTableViewCell.m */,
+				57B840091CC3E2C60024A51B /* ImageCollectionViewCell.h */,
+				57B8400A1CC3E2C60024A51B /* ImageCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A77AE4F27DF25C1AD85A35CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82E0925D97DD658CC4C36D86 /* Pods.debug.xcconfig */,
+				B74AB4C9CC5B2D95C58598F8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B61CC833B6FCFE220EAE6A1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0E038C4F1756BEA08CD68C5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		575B161D1CBCBA850011FE1E /* VKNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575B16381CBCBA850011FE1E /* Build configuration list for PBXNativeTarget "VKNews" */;
+			buildPhases = (
+				ADD7EE1042E04C8AFC28757B /* Check Pods Manifest.lock */,
+				575B161A1CBCBA850011FE1E /* Sources */,
+				575B161B1CBCBA850011FE1E /* Frameworks */,
+				575B161C1CBCBA850011FE1E /* Resources */,
+				6FF320545E097DEB5446B437 /* Embed Pods Frameworks */,
+				448ABDD8DE436B6AABAEB0B9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKNews;
+			productName = VKNews;
+			productReference = 575B161E1CBCBA850011FE1E /* VKNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		575B16161CBCBA850011FE1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alyona Belyaeva";
+				TargetAttributes = {
+					575B161D1CBCBA850011FE1E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 575B16191CBCBA850011FE1E /* Build configuration list for PBXProject "VKNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 575B16151CBCBA850011FE1E;
+			productRefGroup = 575B161F1CBCBA850011FE1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				575B161D1CBCBA850011FE1E /* VKNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		575B161C1CBCBA850011FE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575B16341CBCBA850011FE1E /* LaunchScreen.storyboard in Resources */,
+				575B16311CBCBA850011FE1E /* Assets.xcassets in Resources */,
+				575B162C1CBCBA850011FE1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		448ABDD8DE436B6AABAEB0B9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FF320545E097DEB5446B437 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADD7EE1042E04C8AFC28757B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		575B161A1CBCBA850011FE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575B162F1CBCBA850011FE1E /* VKNews.xcdatamodeld in Sources */,
+				575B166D1CBE32940011FE1E /* NewsTableViewController.m in Sources */,
+				57B8400B1CC3E2C60024A51B /* ImageCollectionViewCell.m in Sources */,
+				575B178A1CC2C30F0011FE1E /* DetailViewController.m in Sources */,
+				575B174A1CC007550011FE1E /* VKPost.m in Sources */,
+				575B17431CBF9F010011FE1E /* MainModel.m in Sources */,
+				575B17471CBFBA2F0011FE1E /* PostTableViewCell.m in Sources */,
+				575B16261CBCBA850011FE1E /* AppDelegate.m in Sources */,
+				575B16231CBCBA850011FE1E /* main.m in Sources */,
+				575B16681CBE32390011FE1E /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		575B162A1CBCBA850011FE1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				575B162B1CBCBA850011FE1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		575B16321CBCBA850011FE1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				575B16331CBCBA850011FE1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		575B16361CBCBA850011FE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		575B16371CBCBA850011FE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		575B16391CBCBA850011FE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E0925D97DD658CC4C36D86 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = VKNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alele.VKNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		575B163A1CBCBA850011FE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B74AB4C9CC5B2D95C58598F8 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = VKNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alele.VKNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		575B16191CBCBA850011FE1E /* Build configuration list for PBXProject "VKNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575B16361CBCBA850011FE1E /* Debug */,
+				575B16371CBCBA850011FE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575B16381CBCBA850011FE1E /* Build configuration list for PBXNativeTarget "VKNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575B16391CBCBA850011FE1E /* Debug */,
+				575B163A1CBCBA850011FE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		575B162D1CBCBA850011FE1E /* VKNews.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				575B162E1CBCBA850011FE1E /* VKNews.xcdatamodel */,
+			);
+			currentVersion = 575B162E1CBCBA850011FE1E /* VKNews.xcdatamodel */;
+			path = VKNews.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 575B16161CBCBA850011FE1E /* Project object */;
+}
